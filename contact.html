@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Contact Me</h1></header>
+    <nav>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="interests.html">Interests</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Get in Touch</h2>
+        <p>Fill out the form below to send me a message:</p>
+        
+        <form action="#" method="post">
+
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+          
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+         
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject" placeholder="Message subject" required><br><br>
+
+  
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea><br><br>
+
+
+            <label for="reason">Reason for Contact:</label><br>
+            <select id="reason" name="reason">
+                <option value="general">General Inquiry</option>
+                <option value="collaboration">Collaboration</option>
+                <option value="feedback">Feedback</option>
+            </select><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>
