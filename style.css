@@ -1,0 +1,39 @@
+body {
+    font-family: Times New Roman, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #D8B4E2;
+    color: #5E548E;
+}
+
+header {
+    background: #D8A7B1;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav {
+    background: #6D6875;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4a90e2;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
